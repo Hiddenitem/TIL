@@ -168,13 +168,6 @@ margin-right : auto;
         <img src="sample.png" class="profile"> 
         <h3 class="Title">Hidden_Item</h3>
         <p id="special">BackEnd Developer</p>
-        <p style="text-align:center"><strong style="color:chartreuse">Game</strong> Developer</p>
-        <p style="color :blue; text-align:center; font-size: 10px">Making Dev studying site</p>
-        <p style="color :cornflowerblue; text-align:center; font-size : 10px;">Making Stellive Fan Game</p>
-        <p style="text-align:center">Language : <span style="color : black; font-size : 20px; text-align:center">C</span>, 
-            <span style="text-align:center; font-size : 20px">C++</span>, 
-            <span style="text-align:center">ETC</span></p>
-        <p></p>
     <body>
 </html>
 
