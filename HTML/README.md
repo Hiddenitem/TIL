@@ -11,3 +11,4 @@
 10. [10강 z-index와 width & box-sizing](./10강%20z-index와%20width%20&%20box-sizing/z-index와%20width%20&%20box-sizing.md)
 11. [11강 form과 input](./11강%20form과%20input/form과%20input.md)
 12. [12강 Contact us 레이아웃만들기, 11강 과제 다시 만들기](./12강%20Contact%20us%20레이아웃%20만들기/contact%20us%20레이아웃%20만들기.md)
+13. [13강 table, vertical-align 가지고 표 만들기](./13강%20웹페이지에%20표%20만들기/웹페이지에%20표%20만들기.md)
