@@ -23,7 +23,9 @@
 6. [Instantiate() 메서드 : UNITY](./중급/6강%20Instantiate()/Instantiate().md)
 7. [FindFirstObjectByType()메서드 : UNITY] 344pg
 8. [SceneManager.LoadScene() 메서드 : UNITY] 391pg
+9. [event 호출 순서에 대하여](./중급/9강%20event%20호출%20순서/event.md)
 
 ## 고급
 ### 고급 기술들을 정리했습니다.
-1. 
+1. [프로퍼티] 690pg
+2. [C# 인터페이스] 722pg
