@@ -47,3 +47,45 @@ void fireball()
 ## 2. 함수(메서드)의 매개변수
 - 함수(메서드)에 매개변수를 전달하여, 함수에서 값을 받아 기능을 동작하고 다시 기능을 반환하게 만들 수 있다.
 ``` C#
+    void Start()
+    {
+        int mp = 100;
+        fireball(ref mp);
+        fireball(ref mp);
+        fireball(ref mp);
+    }
+
+    void fireball(ref int mp)
+    {
+        Debug.Log("파이어볼 발사");
+        Debug.Log("10mp 소모");
+        mp = mp - 10;
+        Debug.Log("현재 mp : " + mp);
+    }
+```
+- 간단하게, fireball함수를 호출하면, mp 변수의 값이 깎이는 함수를 구현하였다.
+- 결과 화면은 다음과 같다.
+![](./결과%20화면.png)
+- fireball 함수가 세 번 사용되어, mp 변수가 10씩 깎이는 걸 볼 수가 있다.
+- 레퍼런스 변수를 사용해서 함수로 전달한 mp 변수가 변하면(mp = mp - 10;) Start() 함수에서도 mp 변수의 값이 바뀌게 코드를 구성하였다.
+
+## 3. 함수(메서드)의 값 반환
+``` C#
+    int a = 3;
+    int b = 4;
+    int c;
+    void Start()
+    {
+        c = Plus(a, b);
+        Debug.Log(a + " + " + b + " = " + c);
+    }
+    
+    int Plus(int a, int b)
+    {
+        c = a + b;
+        return c;
+    }
+```
+![](./완성본2.png)
+- `Plus 함수의 자료형을 int`로 설정 + `return c;` 를 통하여, Plus 함수 수행시 나오는 `c 변수의 값`을 함수를 호출한 `Start 함수로 전달`하게 됨.
+- 따라서, Start 함수 속 `변수 c에 7 값이 저장`됨.
