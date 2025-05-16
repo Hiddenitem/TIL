@@ -24,6 +24,7 @@
 7. [FindFirstObjectByType()메서드 : UNITY] 344pg
 8. [SceneManager.LoadScene() 메서드 : UNITY] 391pg
 9. [event 호출 순서에 대하여](./중급/9강%20event%20호출%20순서/event.md)
+10. [다형성](./중급/10강%20다형성/Instantiate().md)
 
 ## 고급
 ### 고급 기술들을 정리했습니다.
