@@ -23,8 +23,8 @@
 6. [Instantiate() 메서드 : UNITY](./중급/6강%20Instantiate()/Instantiate().md)
 7. [FindFirstObjectByType()메서드 : UNITY] 344pg
 8. [SceneManager.LoadScene() 메서드 : UNITY] 391pg
-9. [event 호출 순서에 대하여](./중급/9강%20event%20호출%20순서/event.md)
-10. [다형성](./중급/10강%20다형성/Instantiate().md)
+9. [event 호출 순서에 대하여 : UNITY](./중급/9강%20event%20호출%20순서/event.md)
+10. [다형성 : C#](./중급/10강%20다형성/Instantiate().md)
 11. [Interactable로 게임 오브젝트와 상호작용을 구현하자] https://wergia.tistory.com/229
 12. [Lerp함수] https://m.blog.naver.com/PostView.naver?blogId=i_am_gamer&logNo=223278434295&navType=by
 13. [코루틴] https://m.blog.naver.com/PostView.naver?blogId=i_am_gamer&logNo=223344097331&navType=by
@@ -34,19 +34,20 @@
 17. [제네릭 입문]
 18. [객체지향을 이용한 클래스]
 19. [static 정적 프로그래밍]
+20. [리스트] 896 pg
 
 ## 고급
 ### 고급 기술들을 정리했습니다.
 1. [프로퍼티(속성)] C# 프로그래밍 책 287pg
 2. [C# 인터페이스] 722pg
 3. [레이캐스트] 757pg
-4. [이벤트] 802pg ~ 805pg
+4. [이벤트](./고급/4강%20이벤트/Event.md)
 5. [딕셔너리] 1002pg
 6. [Delegate 대리자] https://m.blog.naver.com/PostView.naver?blogId=i_am_gamer&logNo=223298894113&navType=by
 7. [Delegate 참조]
 8. [Delegate 이벤트]
 9.  [EventHandler]
-10. [Lambda 람다식]
+10. [익명 함수와 Lambda 람다식] 902 pg
 11. [Action 타입] https://m.blog.naver.com/PostView.naver?blogId=i_am_gamer&logNo=223322280845&navType=by
 12. [Enumerator (열거자)] https://m.blog.naver.com/PostView.naver?blogId=i_am_gamer&logNo=223329367399&navType=by
 13. [Reflection 리플렉션] https://m.blog.naver.com/PostView.naver?blogId=i_am_gamer&logNo=223578667263&navType=by
