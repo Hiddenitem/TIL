@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=shark&color=auto&height=300&section=header&text=HTML%20and%20CSS&fontSize=90)
 # HTML과 CSS 배우기
-# 바로가기
+> # 바로가기
 ## 초급
 1. [1강 HTML 기초](./1강%20HTML%20기초/BasicHTML.md)
 - HTML 완전 기초를 배웁니다. HTML이 뭔지, 그리고 VS Code에서 어떻게 실행하는지를 배웁니다.
@@ -23,4 +23,9 @@
 ## 중급
 
 17. [17강 웹 자체에 폰트를 넣는 방법](./17강%20웹%20폰트%20넣는%20법/Lecture17.md)
+18. [18강 가로박스 div 태그 노가다 대신 쉽게 하는법](./18강%20쉽게%20가로박스%20만들기%20Flex%20box/Lecture17.md)
+19. [19강 emmet와 VS Code에서 사용가능한 여러 유용한 기능들!!!!](./19강%20emmet와%20부가기능들/Lecture19.md)
+20. [20강 head 태그 속 어떤게 들어가면 더 이쁠까?](./20강%20head%20태그에%20들어갈%20내용들/Lecture20.md)
+
+
 ## 고급

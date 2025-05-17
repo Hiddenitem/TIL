@@ -26,15 +26,14 @@
 9. [event 호출 순서에 대하여](./중급/9강%20event%20호출%20순서/event.md)
 10. [다형성](./중급/10강%20다형성/Instantiate().md)
 11. [Interactable로 게임 오브젝트와 상호작용을 구현하자] https://wergia.tistory.com/229
-12. [DOTween 에셋을 가지고 쉽게 이동 애니메이션을 구현하자] https://wlsdn629.tistory.com/entry/unity-dotweenpro-guide
-13. [Lerp함수] https://m.blog.naver.com/PostView.naver?blogId=i_am_gamer&logNo=223278434295&navType=by
-14. [코루틴] https://m.blog.naver.com/PostView.naver?blogId=i_am_gamer&logNo=223344097331&navType=by
-15. [C# 형변환](./중급/15강%20CSharp%20형변환/formchange.md)
-16. [Object 자료형]
-17. [컬렉션]
-18. [제네릭 입문]
-19. [객체지향을 이용한 클래스]
-20. [static 정적 프로그래밍]
+12. [Lerp함수] https://m.blog.naver.com/PostView.naver?blogId=i_am_gamer&logNo=223278434295&navType=by
+13. [코루틴] https://m.blog.naver.com/PostView.naver?blogId=i_am_gamer&logNo=223344097331&navType=by
+14. [C# 형변환](./중급/15강%20CSharp%20형변환/formchange.md)
+15. [Object 자료형]
+16. [컬렉션]
+17. [제네릭 입문]
+18. [객체지향을 이용한 클래스]
+19. [static 정적 프로그래밍]
 
 ## 고급
 ### 고급 기술들을 정리했습니다.
@@ -53,3 +52,4 @@
 13. [Reflection 리플렉션] https://m.blog.naver.com/PostView.naver?blogId=i_am_gamer&logNo=223578667263&navType=by
 14. [DLL] https://m.blog.naver.com/PostView.naver?blogId=i_am_gamer&logNo=223590802439&navType=by
 15. [한글 글자가 타이핑처럼 보이게 하는 에셋 사용법] https://www.youtube.com/watch?v=NQXBatLAvqk&list=PLO-mt5Iu5TeabX5jyInDpKvt2EiY2J-Et&index=6
+16. [DOTween 에셋을 가지고 쉽게 이동 애니메이션을 구현하자] https://wlsdn629.tistory.com/entry/unity-dotweenpro-guide
