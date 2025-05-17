@@ -54,3 +54,7 @@
 14. [DLL] https://m.blog.naver.com/PostView.naver?blogId=i_am_gamer&logNo=223590802439&navType=by
 15. [한글 글자가 타이핑처럼 보이게 하는 에셋 사용법] https://www.youtube.com/watch?v=NQXBatLAvqk&list=PLO-mt5Iu5TeabX5jyInDpKvt2EiY2J-Et&index=6
 16. [DOTween 에셋을 가지고 쉽게 이동 애니메이션을 구현하자] https://wlsdn629.tistory.com/entry/unity-dotweenpro-guide
+
+## 프로젝트
+### 간단히 연습해본 것들 잊지 않게 정리해둔 모음집입니다.
+1. [공이 공 주의 도는거 구현해보기]
