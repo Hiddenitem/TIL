@@ -65,6 +65,7 @@
 - gif 파일을 보면, `브라우저 창에 따라 글자 크기가 달라지는 걸 볼 수 있다`.
 - `media query` 속에는 몇 개의 클래스가 들어가든 상관이 없다. 또한, 클래스 속 스타일의 제한도 없다.
 - 또한, media query 는 여러 개를 작성할 수도 있다.
+### 다만! `media query` 문법은, `CSS` 파일 맨 아래에 작성되어야 한다!
 ``` CSS
 @media screen and (max-width : 1200px) {
     .main-title {
@@ -106,7 +107,7 @@
 ```
 - 이런 식으로, 여러 크기에서의 `breakpoint` 를 설정하여, `웹사이트의 크기`에 맞춰 반응형 `웹을 디자인` 할 수 있다.
 
-## 4. 과제 해오기
+## 4. 과제 해오기 (내가 만든 버전)
 ```html
 <!-- html 파일 내부 -->
 <!DOCTYPE html>
@@ -185,3 +186,76 @@
 ![](./제목%20없는%20동영상%20-%20Clipchamp로%20제작%20(2).gif)
 - 각 화면에 맞추어서, 박스들이 2열, 1열로 정렬되게 만들었다.
 - `display-gird` 라는 새로운 개념을 사용해보았다.
+
+## 5. 과제 해오기 (쌤 버전)
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="CSS/practice4.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="product-container">
+        <div>
+            <h4>Fast Shipping</h4>
+            <p>lorem ipsum</p>
+        </div>
+        <div>
+            <h4>Good Service</h4>
+            <p>lorem ipsum</p>
+        </div>
+        <div>
+            <h4>Free Coupon</h4>
+            <p>lorem ipsum</p>
+        </div>
+        <div>
+            <h4>New Products</h4>
+            <p>lorem ipsum</p>
+        </div>
+    </div>
+    <!-- 붕 뜬 친구들 무시하기 위한 박스 구성 -->
+    <div style="float : none; clear : both;"></div>
+</body>
+</html>
+```
+``` CSS
+.product-container {
+    width : 80%;
+    max-width : 1000px;
+    margin : auto;
+    margin-top : 50px;
+    margin-bottom : 50px;
+}
+.product-container div {
+    float : left;
+    /* pc 화면에서는 각 박스들의 width 가 25% 크기 */
+    width : 25%;
+    text-align : center;
+}
+
+/* 태블릿 사이즈 아래에서는 다음 스타일 적용 */
+@media screen and (max-width : 1200px) {
+    .product-container div {
+        /* 태블릿 화면에서는 각 박스들의 width 가 50% 크기 */
+        width : 50%;
+    }
+    .product-container {
+        max-width : 600px;
+    }
+}
+
+/* 모바일 사이즈에서는 아래 스타일 적용*/
+@media screen and (max-width : 768px) {
+    .product-container div {
+        /* 모바일 화면에서는 각 박스들의 width 가 100% 크기 */
+        width : 100%;
+    }
+}
+```
+- `셀렉터` 문법과 `width를 % 단위`로 조절하여서 만들어냈다.
+![](./제목%20없는%20동영상%20-%20Clipchamp로%20제작%20(3).gif)
+- 세 개의 단위로 나누어야 되었구나.
