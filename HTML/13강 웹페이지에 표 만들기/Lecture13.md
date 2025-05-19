@@ -1,5 +1,5 @@
 # Table 레이아웃과 vertical-align 속성 (2025-05-13)
-![](./오.png)
+![](./오.png)<br>
 - 위 같은 표를 만드는 코드를 작성해보자.
 ```html
 <!-- html 파일 내부 -->
@@ -74,7 +74,7 @@ table {
 - `tr(행)로 만들 요소`에는 `table-row` / `td(열)`로 만들 요소에는 `table-cell`을 작성한다.
 
 ## 2. 과제 하기
-![](./어렵다.png)
+![](./어렵다.png)<br>
 ```html
 <!-- html 파일 내부 -->
 <!DOCTYPE html>

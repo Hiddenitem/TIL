@@ -30,7 +30,7 @@
     display : flex;
 }
 ```
-- 작성을 완료하면, 아래와 같이 박스들이 `가로로 정렬`된다.
+- 작성을 완료하면, 아래와 같이 박스들이 `가로로 정렬`된다.<br>
 ![](./가로정렬.png)
 - 부모에다가 `display:flex;` 만 작성하면, 간단하게 된다.
 
@@ -69,7 +69,7 @@
         <div style="background-color : gray; width : 100px; height : 100px; margin : 5px"></div>
     </div>
 ```
-![](./1.png)
+![](./1.png)<br>
 - 적용을 안했을 때의 모습이다.
 ---
 ```html
@@ -79,7 +79,7 @@
         <div style="background-color : gray; width : 100px; height : 100px; margin : 5px"></div>
     </div>
 ```
-![](./2.png)
+![](./2.png)<br>
 - 적용했을 때의 모습이다.
 - 차이가 확실히 느껴진다.
 
