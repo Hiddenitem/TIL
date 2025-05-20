@@ -76,7 +76,7 @@
 ```
 ```CSS
 .overlay {
-    /* position:relative 인 요소 내부에서 위치를 조절할 수 있게 됨. */
+    /* position:relative 인 요소 내부에서 위치를 조절할 수 있게 됨. TIL 9강 참고 */
     position : absolute;
     width : 100%;
     height : 100%;
